@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { GetUnitsService } from '../../services/get-units.service';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-forms',
   standalone: true,
-  imports: [ReactiveFormsModule, HttpClient],
+  imports: [ReactiveFormsModule],
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss'
 })
